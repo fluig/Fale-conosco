@@ -1,0 +1,85 @@
+[id^="faleconoscoObj_"] .expandido header {
+    /* background-image: url("http://spon4399:8080/portal/resources/images/logo.png"); */
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    border-bottom: 2px solid #ecf0f1;    
+    margin-bottom: 20px;
+    min-height: 50px;
+    padding-bottom: 10px;
+    padding-right: 82px;
+}
+[id^="faleconoscoObj_"] .expandido header h4 {
+    font-size: 2.3em;
+}
+[id^="faleconoscoObj_"] .expandido header .description {
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+[id^="faleconoscoObj_"] .expandido form label, .windowFaleConosco form label {
+    font-weight: bold;
+}
+[id^="faleconoscoObj_"] .expandido form label::after, .windowFaleConosco form label::after {
+    content: "*";
+    color: #e74c3c;
+    margin-left: 3px;
+}
+[id^="faleconoscoObj_"] .expandido form textarea, .windowFaleConosco form textarea {
+    resize: none;
+}
+
+.windowFaleConosco form textarea {
+	height: 80px;
+}
+
+[id^="faleconoscoObj_"] .loading, .windowFaleConosco .loading {
+	color: #34495e;
+	display: none;
+    font-size: 1.4em;
+    font-weight: bold;    
+}
+[id^="faleconoscoObj_"] .loading {
+	padding-left: 10px;
+}
+
+[id^="faleconoscoObj_"] .minimizado {
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 82px 46px;   
+    cursor: pointer;
+    display: none;
+    margin-bottom: 20px;
+    min-height: 70px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+[id^="faleconoscoObj_"] .minimizado.sem-background {
+	padding-left: 0px;
+}
+[id^="faleconoscoObj_"] .minimizado h4 {
+    font-size: 2em;
+}
+[id^="faleconoscoObj_"] .minimizado .description {
+    font-size: 1.3em;
+}
+
+/* Edit CSS */
+[id^="faleconoscoObj_"] .label-fale-conosco {
+	display: block;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+[id^="faleconoscoObj_"] input[type=radio] + label.label-fale-conosco {
+    display: inline;
+    font-weight: normal;
+    margin-right: 10px;
+    vertical-align: top;
+}
+[id^="faleconoscoObj_"] #inputNomeImagemFaleConosco {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxOS4wMy4xMx/W1KoAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABMklEQVQ4jZWSLVPDQBCGnwRqotHUtpYYTLGtBQt6+Q/gsfHvj6AWLNXBIIoFSw0mGpE95nLT68c7k5nL7bvP7e1tQSQzOwNugBqootAn8CZpRUZFBFkAtzljBGwkdWngNANZAWugA6bAzCucAI/+DSvy6zT+/w1I0ldsMrMKuAcufGsp6Tn2lPQ9wU9vUgg9uZPU+EEA89RT0jcW4FXSJjUkClVUZjZNQeF11nsgSGpzsXJf8qGKQVXW5TKz8S7Qu68XBxwcmtxJGrSiBF58PTGz2Y5qZvTzBP2cDVS4yRLTc3hBn7Mr4DrK64CneFQCqALuIlgwQ753A1gRR7z8BXCeJG280nkC/ocVbJFXGF7oJ7rmGHjYBtsK2qUc7ORYUNu2v3VdfwCXwMi3R0eDMrDlHxvPbPy13TdxAAAAAElFTkSuQmCC');
+	background-repeat: no-repeat;
+	background-position: 98%;
+	cursor: pointer;
+	padding-right: 35px;
+}
