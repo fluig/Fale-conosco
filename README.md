@@ -9,7 +9,7 @@ Construída para facilitar a comunicação entre os usuários finais e colaborad
 ### Recursos úteis
 
 * Envio de e-mail para mais de um usuário, basta adicionar ";" entre os e-mails destinatários.
-* Customização da imagem do título por meio da escolha de uma imagem no GED do fluig (localização de imagem em pastas).
+* [Localização de arquivos no GED](http://tdn.totvs.com/pages/releaseview.action?pageId=223176333) para customizar imagem de exibição no título.
 * Gravar configuração na tela de edição da widget e consultar configurações gravadas na visualização do componente.
 
 ### Origem do desenvolvimento
